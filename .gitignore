@@ -36,3 +36,7 @@ coverage/
 # Temporary files
 tmp/
 temp/
+
+# Claude
+.claude/
+CLAUDE.md
