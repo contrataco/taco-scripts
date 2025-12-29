@@ -52,13 +52,27 @@ Scene Visualizer is an Electron app that:
 
 ## Installation
 
-### Prerequisites
+### Option 1: Download Pre-built Release (Recommended)
+
+Download the latest release for your platform from the [Releases page](https://github.com/contrataco/taco-scripts/releases):
+
+| Platform | Download |
+|----------|----------|
+| **Windows** | `Scene-Visualizer-Setup-x.x.x.exe` (installer) or `Scene-Visualizer-x.x.x-portable.exe` |
+| **macOS** | `Scene-Visualizer-x.x.x.dmg` or `Scene-Visualizer-x.x.x-mac.zip` |
+| **Linux** | `Scene-Visualizer-x.x.x.AppImage` or `scene-visualizer_x.x.x_amd64.deb` |
+
+**macOS note**: On first launch, right-click the app and select "Open" to bypass Gatekeeper.
+
+### Option 2: Build from Source
+
+#### Prerequisites
 
 - **Node.js 18** or higher
 - **npm** (comes with Node.js)
 - **NovelAI subscription** with image generation access
 
-### Steps
+#### Steps
 
 ```bash
 # Navigate to the app directory
@@ -74,7 +88,7 @@ npm start
 npm run dev
 ```
 
-### From Repository Root
+#### From Repository Root
 
 ```bash
 # Install all workspace dependencies

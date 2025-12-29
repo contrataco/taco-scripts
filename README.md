@@ -47,14 +47,19 @@ taco-scripts/
 
 ### Scene Visualizer (App + Script)
 
+**Option A: Download Pre-built Release** (Recommended)
+
+1. Download from [Releases](https://github.com/contrataco/taco-scripts/releases)
+2. Install and run the app
+3. Go to Settings and enter your NovelAI API token
+4. Enable the scene-visualizer-script in NovelAI (see below)
+
+**Option B: Build from Source**
+
 ```bash
-# 1. Install and run the Electron app
 cd apps/scene-visualizer
 npm install
 npm start
-
-# 2. In the app, go to Settings and enter your NovelAI API token
-# 3. Enable the scene-visualizer-script in NovelAI (see below)
 ```
 
 ---
