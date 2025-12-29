@@ -1,0 +1,15 @@
+{
+  "name": "taco-scripts",
+  "version": "1.0.0",
+  "description": "Contrataco's collection of NovelAI user scripts and applications",
+  "private": true,
+  "workspaces": [
+    "apps/*"
+  ],
+  "scripts": {
+    "scene-visualizer": "npm run start --workspace=@taco-scripts/scene-visualizer",
+    "scene-visualizer:dev": "npm run dev --workspace=@taco-scripts/scene-visualizer"
+  },
+  "author": "contrataco",
+  "license": "MIT"
+}

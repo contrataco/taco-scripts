@@ -1,0 +1,19 @@
+{
+  "name": "@taco-scripts/scene-visualizer",
+  "version": "1.0.0",
+  "description": "Electron app that displays AI-generated scene images alongside NovelAI stories",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dev": "electron . --enable-logging"
+  },
+  "author": "ryanrobson",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^28.0.0"
+  },
+  "dependencies": {
+    "adm-zip": "^0.5.10",
+    "electron-store": "^8.1.0"
+  }
+}
