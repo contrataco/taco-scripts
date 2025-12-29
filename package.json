@@ -3,12 +3,13 @@
   "version": "1.0.0",
   "description": "Contrataco's collection of NovelAI user scripts and applications",
   "private": true,
-  "workspaces": [
-    "apps/*"
-  ],
   "scripts": {
-    "scene-visualizer": "npm run start --workspace=@taco-scripts/scene-visualizer",
-    "scene-visualizer:dev": "npm run dev --workspace=@taco-scripts/scene-visualizer"
+    "scene-visualizer": "cd apps/scene-visualizer && npm start",
+    "scene-visualizer:dev": "cd apps/scene-visualizer && npm run dev",
+    "scene-visualizer:build": "cd apps/scene-visualizer && npm run build",
+    "scene-visualizer:build:mac": "cd apps/scene-visualizer && npm run build:mac",
+    "scene-visualizer:build:win": "cd apps/scene-visualizer && npm run build:win",
+    "scene-visualizer:build:linux": "cd apps/scene-visualizer && npm run build:linux"
   },
   "author": "contrataco",
   "license": "MIT"
